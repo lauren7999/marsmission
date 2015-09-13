@@ -9,9 +9,11 @@ public class controller {
 	
 	
 	/*
-	 * class variables
+	 * class constants
 	 * 
 	 */
+	
+	public static String   VERSION  = "0.0.1";
 	
 	
 	/*
