@@ -1,6 +1,6 @@
 package marsmission;
 
-public class controller {
+public class PayloadFairingModel {
 
 	/*
 	 * Class instance variables
@@ -14,16 +14,10 @@ public class controller {
 	 */
 	
 	
-	public static String   VERSION  = "0.0.3";
-	
 	
 	/*
 	 * constructor
 	 * 
 	 */
-	
-	public controller() {
-		
-	}
 
 }

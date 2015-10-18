@@ -1,6 +1,6 @@
 package marsmission;
 
-public class ICPSModel {
+public class Stage3EngineModel { //icps = fuel tank {
 	
 	/*
 	 * Class instance variables
@@ -21,7 +21,7 @@ public class ICPSModel {
 	 * 
 	 */
 
-	public ICPSModel() {
+	public Stage3EngineModel() {
 		// TODO Auto-generated constructor stub
 	}
 

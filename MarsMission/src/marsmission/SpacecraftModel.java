@@ -7,9 +7,9 @@ public class SpacecraftModel {
 	 * 
 	 */
 	
-	private int				  maxSpeed;
-	private CrewModuleModel   crewModule;
-	private LaunchAbortSystemModel  launchAbortSystem;
+	private int				         maxSpeed;
+	private CrewModuleModel          crewModule;
+	private LaunchAbortSystemModel   launchAbortSystem;
 	
 	
 	/*

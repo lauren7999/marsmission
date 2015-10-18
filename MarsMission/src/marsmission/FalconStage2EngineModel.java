@@ -1,6 +1,7 @@
 package marsmission;
 
-public class controller {
+public class FalconStage2EngineModel extends EnginesModel {
+
 
 	/*
 	 * Class instance variables
@@ -14,16 +15,9 @@ public class controller {
 	 */
 	
 	
-	public static String   VERSION  = "0.0.3";
-	
 	
 	/*
 	 * constructor
 	 * 
 	 */
-	
-	public controller() {
-		
-	}
-
 }

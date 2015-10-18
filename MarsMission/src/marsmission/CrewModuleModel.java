@@ -1,6 +1,6 @@
 package marsmission;
 
-public class CrewModuleModel {
+public class CrewModuleModel extends PayloadModel{
 
 	/*
 	 * Class Instance Variable
@@ -25,6 +25,11 @@ public class CrewModuleModel {
 		this.model 			  = model;
 		this.organization     = organization;
 		this.crewMembers      = crewMembers;
+	}
+
+
+	public CrewModuleModel() {
+		// TODO Auto-generated constructor stub
 	}
 	
 

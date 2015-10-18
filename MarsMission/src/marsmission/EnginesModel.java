@@ -1,15 +1,15 @@
 package marsmission;
 
-public class SLSModel {
+public class EnginesModel {
 	
 	/*
 	 * Class Instance Variable
 	 * 
 	 */
 	
-	SRBModel[]         solidFuelRockets;  //stage 1 //array stores object; you still need to create the object to have it useble
-	MainEngineModel    mainEngine;          // stage 2
-	ICPSModel          icps;			  //stage 3
+	private SRBModel[]         solidFuelRockets;  //stage 1 //array stores object; you still need to create the object to have it useble
+	private MainEngineModel    mainEngine;          // stage 2
+	private Stage3EngineModel         icps;			  //stage 3
 	
 	
 	/*
@@ -26,7 +26,7 @@ public class SLSModel {
 	 */
 	
 
-	public SLSModel() {
+	public EnginesModel() {
 		solidFuelRockets   = new SRBModel[SRB_ENGINES];
 		
 		for(int index = 0; index < SRB_ENGINES; index++) {
