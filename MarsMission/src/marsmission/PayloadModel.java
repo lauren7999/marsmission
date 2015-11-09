@@ -9,41 +9,29 @@ public class PayloadModel {
 	 * 
 	 */
 	
-
-	private LaunchAbortSystemModel     launchAbortSystemModel;
-	private CrewModuleModel				crewModule;
-	private ServiceModuleModel			serviceModule;
-	private ServiceModulePanelsModel    serviceModulePanels;
-	private StageAdapterModel      spacecraftAdapter;
-	private Stage3Model                   icps;
-	
+	protected int type;
+	private String model;
+	private String organization;
 	
 	
 	/*
 	 * Class Constants
-	 * 
 	 */
-
+	
+	public static final int CREW_PAYLOAD = 1;
+	public static final int CARGO_PAYLOAD  =2;
+	
 	
 	/*
 	 * Constructors
 	 * 
 	 */
 	
-
-	public PayloadModel(LaunchAbortSystemModel launchAbortSystem, CrewModuleModel crewmodule, ServiceModuleModel serviceModule, ServiceModulePanelsModel serviceModulePanels, Space) {
-		launchAbortSystemModel   = new LaunchAbortSystemModel();
-		this.crewModule          = new CrewModuleModel ( MODEL, ORGANIZATION, CREW);
-		serviceModule            = new ServiceModuleModel();
-		serviceModulePanels      = new ServiceModulePanelsModel();
-		spacecraftAdapter        = new StageAdapterModel();
-		SRBModel Stage3Model = new SRBModel();
+	public PayloadModel(int type, String model2, String organization2) {
+		this.type = type;
 	}
+	
 
 
 
-
-	public PayloadModel(LaunchAbortSystemModel launchAbortSystem, CrewModuleModel crewModule2,
-			ServiceModuleModel serviceModule2, ServiceModuleModel service, Object spacecraftAdapter2) {
-		// TODO Auto-generated constructor stub
-	}}
+}

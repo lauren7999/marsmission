@@ -2,9 +2,26 @@ package marsmission;
 
 public class SLSEngineModel extends EnginesModel {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*
+		 * Class Instance Variables
+		 * 
+		 */
 
+		
+		/*
+		 * Class Constants
+		 * 
+		 */
+
+	public  static final String MAIN_ENGINE = "Core Stage";
+	public static final String ORGANIATION = "Nasa";
+	
+		/*
+		 * Constructors
+		 * 
+		 */
+	
+	public SLSEngineModel(int type, String model, String organization) {
+		super(type, model, organization);
 	}
-
 }

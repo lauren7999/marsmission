@@ -1,6 +1,6 @@
 package marsmission;
 
-public class MainEngineModel {
+public class MainEngineModel  {
 	
 	/*
 	 * Class instance variables
@@ -13,7 +13,7 @@ public class MainEngineModel {
 	 * Class constants
 	 * 
 	 */
-	
+	public static final String MAIN_ENGINE = "Main Engine";
 	
 	
 	/*
@@ -23,6 +23,11 @@ public class MainEngineModel {
 
 	public MainEngineModel() {
 		
+	}
+
+
+	public MainEngineModel(int boosterEngine, String mainEngine, String organiation) {
+		// TODO Auto-generated constructor stub
 	}
 
 }

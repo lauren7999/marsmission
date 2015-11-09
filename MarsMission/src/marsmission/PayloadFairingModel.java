@@ -19,5 +19,7 @@ public class PayloadFairingModel {
 	 * constructor
 	 * 
 	 */
-
+		public PayloadFairingModel() {
+			
+		}
 }

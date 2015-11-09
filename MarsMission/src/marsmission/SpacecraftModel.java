@@ -23,12 +23,27 @@ public class SpacecraftModel {
 	 * 
 	 */
 	
-	public SpacecraftModel(int maxSpeed, CrewModuleModel crewModule, LaunchAbortSystemModel launchAbortSystem) {
+	public SpacecraftModel(CrewModuleModel crewModule) {
 		
 		this.maxSpeed                 = maxSpeed;
 		this.crewModule               = crewModule;
 		this.launchAbortSystem        = launchAbortSystem;
 		
+	}
+
+	
+	//getters and setters
+	
+
+	public void addEngine(MainEngineModel mainEngineModel) {
+		Object engine;
+		((Object) engine).add(engine);
+	}
+
+
+	public boolean launch() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

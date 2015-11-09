@@ -1,20 +1,16 @@
 package marsmission;
 
-public class OrionModel {
+public class OrionModel extends CrewModuleModel {
 
-	public OrionModel() {
 	
 		/*
 		 * Class Instance Variables
 		 * 
 		 */
 		
-		private LaunchAbortSystemModel     launchAbortSystemModel;
-		private CrewModuleModel				crewModule;
-		private ServiceModuleModel			serviceModule;
-		private ServiceModulePanelsModel    serviceModulePanels;
-		private SpacecraftAdapterModel      spacecraftAdapter;
-		private Stage3Model                   icps;
+		private LaunchAbortSystemModel                         launchAbortSystemModel;
+		private ServiceModulePanelsModel	                   serviceModule;
+		private SpacecraftAdapterModel                         spacecraftAdapter;
 		
 		
 		
@@ -25,7 +21,7 @@ public class OrionModel {
 		
 		public static final String    MODEL          = "Orion";
 		public static final String    ORGANIZATION   = "International";
-		public static final int       CREW            = 4;
+		private static final int       CREW            = 4;
 		private static final String ORION_ORGANIZATION = null;
 		
 		/*
@@ -33,7 +29,18 @@ public class OrionModel {
 		 * 
 		 */
 		
-		public OrionModel(Object ORION_CREW, Object ORION_MODEL) {
-			super(ORION_MODEL, ORION_ORGANIZATION, ORION_CREW);
+		public OrionModel() {
+			super(getCrew(), ORION_ORGANIZATION, MODEL, PayloadModel.CREW_PAYLOAD);
+			
+			launchAbortSystemModel = new LaunchAbortSystemModel();
+		}
+
+		public boolean launch() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+
+		public static int getCrew() {
+			return CREW;
 		}
 }

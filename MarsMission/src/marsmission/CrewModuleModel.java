@@ -6,11 +6,9 @@ public class CrewModuleModel extends PayloadModel{
 	 * Class Instance Variable
 	 * 
 	 */
+		private int      crewMembers;
 	
-	public String model;
-	private String organization;
-	private int    crewMembers;
-	/*
+		/*
 	 * Class Constants
 	 * 
 	 */
@@ -21,16 +19,11 @@ public class CrewModuleModel extends PayloadModel{
 	 * 
 	 */
 	
-	public CrewModuleModel(String model, String organization, int crewMembers) {
-		this.model 			  = model;
-		this.organization     = organization;
-		this.crewMembers      = crewMembers;
+	public CrewModuleModel(int type, String model, String organization, int crewMembers) {
+
+
+		super(type, model, organization);
+		
+		this.crewMembers = crewMembers;
 	}
-
-
-	public CrewModuleModel() {
-		// TODO Auto-generated constructor stub
-	}
-	
-
 }

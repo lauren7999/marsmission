@@ -1,6 +1,6 @@
 package marsmission;
 
-public class CargoModuleModel {
+public class CargoModuleModel extends PayloadModel{
 
 
 	/*
@@ -20,5 +20,8 @@ public class CargoModuleModel {
 	 * constructor
 	 * 
 	 */
-
+	
+		public (int type, String model, String organization, int crewMembers) {
+			super(type, model, organization);
+		}
 }
